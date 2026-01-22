@@ -1,10 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <configuration>
   <property>
     <name>fs.defaultFS</name>
-    <value>hdfs://master:8020</value>
+    <value>hdfs://master:9000</value>
   </property>
   <property>
     <name>hadoop.tmp.dir</name>
-    <value>/var/lib/hadoop/tmp</value>
+    <value>/home/riyo/hadoop/tmp</value>
+  </property>
+  <property>
+    <name>hadoop.http.staticuser.user</name>
+    <value>riyo</value>
   </property>
 </configuration>
